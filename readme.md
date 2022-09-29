@@ -31,7 +31,7 @@ como se puede observar el puerto cero esta en modo dot1q (trunk), esto debido a 
 
 ## Configuración del modo FastEthernet y puertos serial en cada Router
 
-![conf puerto serial y fastethernet](images/fasthyserial.png)	
+![conf puerto serial y fastethernet](images/fasthyserial.PNG)	
 
 ## Conexion entre Routers
 
@@ -39,11 +39,11 @@ como se puede observar el puerto cero esta en modo dot1q (trunk), esto debido a 
 - R1 - R3 ---- S1/1 - S3/0
 - R2 - R3 ---- S2/1 - S3/1
 
-![routers](images/routers.png)
+![routers](images/routers.PNG)
 
 ## Esquema General:
 
-![esquemageneral](images/esquemageneral.png)
+![esquemageneral](images/esquemageneral.PNG)
 
 ## Configuracion en VPC
 
@@ -184,48 +184,48 @@ ip 192.168.143.20/24 192.168.143.1
 
 - sh ip interface brief 
 
-  ![interfacebrief](images/R1.png)
+  ![interfacebrief](images/R1.PNG)
 
 - sh ip ro
 
-  ![ip ro](images/R1_1.png)
+  ![ip ro](images/R1_1.PNG)
 
 ### Router 2
 
 - sh ip interface brief
 
-![router2brief](images/R2.png)
+![router2brief](images/R2.PNG)
 
 - sh ip ro
 
-  ![r2ro](images/R2_1.png)
+  ![r2ro](images/R2_1.PNG)
 
 ### Router 3
 
 - sh ip interace brief
 
-  ![r3brief](images/r3.png)
+  ![r3brief](images/r3.PNG)
 
 - sh ip ro
 
-  ![r3ro](images/r3_1.png)
+  ![r3ro](images/r3_1.PNG)
 
 ## PING desde VPC 1 a las demás VPC
 
-![ping 1](images/ping1.png)
+![ping 1](images/ping1.PNG)
 
-![ping 2](images/ping2.png)
+![ping 2](images/ping2.PNG)
 
 ## Captura de paquetes en WireShark en R3 - R1
 
 - Captura en R3 - R1
 
-  ![capr3r1](images/capturar3r1.png)
+  ![capr3r1](images/capturar3r1.PNG)
 
 - Captura en R1 - R2
 
-  ![r1r2](images/capturar1r2.png)
+  ![r1r2](images/capturar1r2.PNG)
 
 - Captura en R3 - R2
 
-![capr3r2](images/capturar3r2.png)
+![capr3r2](images/capturar3r2.PNG)
