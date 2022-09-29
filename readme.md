@@ -204,11 +204,11 @@ ip 192.168.143.20/24 192.168.143.1
 
 - sh ip interace brief
 
-  ![r3brief](images/r3.PNG)
+  ![r3brief](images/R3.PNG)
 
 - sh ip ro
 
-  ![r3ro](images/r3_1.PNG)
+  ![r3ro](images/R3_1.PNG)
 
 ## PING desde VPC 1 a las demás VPC
 
